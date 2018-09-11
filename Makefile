@@ -19,5 +19,5 @@ delete:
 	helm delete --purge ${NAMESPACE}  --namespace ${NAMESPACE}
 
 clean:
-
+        helm repo add activiti-cloud-charts https://activiti.github.io/activiti-cloud-charts/
 
